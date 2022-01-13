@@ -10,9 +10,7 @@
 
 i was bored so i made this. my one rule for this project was to work on it at 4am/late at night.
 
-this was tested on [Protocol CheatBreaker 1.6](). if you want to change websocket url search ``ws://coolwebsocket.com``.
-
--- put downloads here later (if you see this just ask me in discord because i was too lazy to upload them)
+this was tested on [Protocol CheatBreaker 1.6.25](https://www.mediafire.com/folder/7lha1eobn2wji/protocol). if you want to change websocket url search ``ws://coolwebsocket.com``.
 
 follow me on twitter https://twitter.com/vopswtf
 
@@ -20,7 +18,7 @@ follow me on twitter https://twitter.com/vopswtf
 i never worked on animated capes because i dont like them. feel free to add support for them if you want
 
 you should probably use a local mongodb server if u care enough.
-if you dont care too much then u could use (clever cloud)[https://www.clever-cloud.com]
+if you dont care too much then u could use [clever cloud](https://www.clever-cloud.com)
 
 there are probably bugs but i dont really care enough to fix them.
 
