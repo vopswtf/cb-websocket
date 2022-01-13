@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "bytebuffer": "^5.0.1",
+    "mongoose": "^6.1.4",
+    "node-fetch": "^2.6.6",
+    "ws": "^8.4.0"
+  },
+  "name": "cb-websocket",
+  "version": "1.0.0",
+  "description": "Websocket for Protocol CheatBreaker",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index"
+  },
+  "author": "itsvops",
+  "license": "ISC"
+}

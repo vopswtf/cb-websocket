@@ -1,0 +1,7 @@
+1,0.14,client/wings/bone.png,Bone Wings,dragon_wings,false
+2,1.0,client/capes/2011.png,2011 Minecon Cape,cape,false
+3,1.0,client/capes/2012.png,2012 Minecon Cape,cape,false
+4,1.0,client/capes/2013.png,2013 Minecon Cape,cape,false
+5,1.0,client/capes/2015.png,2015 Minecon Cape,cape,false
+6,1.0,client/capes/2016.png,2016 Minecon Cape,cape,false
+7,1.0,client/capes/2019.png,2019 Minecon Cape,cape,false

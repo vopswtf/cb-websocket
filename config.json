@@ -1,0 +1,59 @@
+{
+    "websocketPort": 1337,
+    "mongo": {
+        "url": "",
+        "collection": "WebSocket"
+    },
+    "welcomeNotification": {
+        "title": "§3the websocket",
+        "message": "&byou are connected!"
+    },
+    "consolePasswords": [
+        "pass",
+        "password with spaces"
+    ],
+    "ranks": [
+        {   
+            "id": 5,
+            "name": "Owner",
+            "color": "§4",
+            "friendRankImage": "logo",
+            "resourceLocation": "client/nametags/highroller.png"
+        },
+        {   
+            "id": 4,
+            "name": "Admin",
+            "color": "§c",
+            "friendRankImage": "highroller",
+            "resourceLocation": ""
+        },
+        {   
+            "id": 3,
+            "name": "Moderator",
+            "color": "§b",
+            "friendRankImage": "block",
+            "resourceLocation": ""
+        },
+        {   
+            "id": 2,
+            "name": "YouTube",
+            "color": "§d",
+            "friendRankImage": "youtube",
+            "resourceLocation": "client/nametags/youtube.png"
+        },
+        {   
+            "id": 1,
+            "name": "Twitch",
+            "color": "§d",
+            "friendRankImage": "twitch",
+            "resourceLocation": "client/nametags/twitch.png"
+        },
+        {   
+            "id": 0,
+            "name": "Default",
+            "color": "§f",
+            "friendRankImage": "",
+            "resourceLocation": ""
+        }
+    ]
+}
