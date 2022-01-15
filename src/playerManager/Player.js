@@ -62,6 +62,14 @@ function sendFirstPackets(player, headers, conn) {
 
     require("../packetHandler/packets/Cosmetics").send(headers.playerid, null, conn)
 
+    config.servers.pinned.forEach(pinned => {
+        require("../packetHandler/packets/protocol/PinnedServer").send(pinned.name, pinned.ip, conn)
+    })
+
+    config.servers.blocked.forEach(blocked => {
+        require("../packetHandler/packets/protocol/BlockedServer").send(blocked.ip, blocked.reason, conn)
+    })
+
     player.sentFriendRequests.forEach(async friend => {
         require("../packetHandler/packets/friend/FriendStatusUpdate").send(friend.uuid, friend.name, true, conn)
     })

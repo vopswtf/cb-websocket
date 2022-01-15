@@ -4,6 +4,20 @@
         "url": "",
         "collection": "WebSocket"
     },
+    "servers": {
+        "pinned": [
+            {
+                "name": "MMC (NA)",
+                "ip": "na.minemen.club"
+            }
+        ],
+        "blocked": [
+            {
+                "ip": "cavepvp.org",
+                "reason": "Adding Abilities"
+            }
+        ]
+    },
     "welcomeNotification": {
         "title": "§3the websocket",
         "message": "&byou are connected!"
