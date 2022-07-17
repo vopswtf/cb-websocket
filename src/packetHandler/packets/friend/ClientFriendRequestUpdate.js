@@ -31,7 +31,7 @@ async function run(b, ws) {
 
     let isRealRequest = expectedAccepter.recievedFriendRequests.some(player => player.uuid === uuid);
     let isRealRequestButSecond = expectedAccepter.sentFriendRequests.some(player => player.uuid === uuid);
-    if (isRealRequest === false && isRealRequestButSecond == false) return formattedConsole.send("Friend Request", "That request doesn't seem right.", ws);
+    if (isRealRequest === false && isRealRequestButSecond === false) return formattedConsole.send("Friend Request", "That request doesn't seem right.", ws);
 
     removeEachOther(expectedAccepter, expectedAddedOrDenied)
 
