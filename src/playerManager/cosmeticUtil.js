@@ -6,6 +6,7 @@ let cosmeticList = []
 
 cosmeticIndex.forEach(cosmetic => {
     let values = cosmetic.split(',')
+    if (!values[5]) return;
     cosmeticList.push({
         id: parseInt(values[0]),
         scale: parseFloat(values[1]),
