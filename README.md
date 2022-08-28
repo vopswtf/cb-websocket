@@ -47,7 +47,7 @@ Install [Node.js](https://nodejs.org/en/)
 
 Clone the repository.
 ```bash
-git clone https://github.com/ItsVops/cb-websocket.git
+git clone https://github.com/vopswtf/cb-websocket.git
 ```
 
 Install NPM packages.
