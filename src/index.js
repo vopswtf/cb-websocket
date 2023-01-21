@@ -8,7 +8,7 @@ const serverManager = require("./playerManager/Server")
 const config = require('../config.json')
 
 async function collectServers() {
-    const serversRes = await fetch('https://raw.githubusercontent.com/LunarClient/ServerMappings/master/servers.json');
+    const serversRes = await fetch('https://servermappings.lunarclientcdn.com/servers.json');
     const servers = await serversRes.json();
     servers.forEach(obj => {
         obj.addresses.forEach(address => {
